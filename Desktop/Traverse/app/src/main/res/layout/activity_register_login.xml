@@ -17,7 +17,7 @@
 
 
     <TextView
-        android:text="Welcome!, you must login ot register first."
+        android:text="Welcome!, you must login or register first."
         android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

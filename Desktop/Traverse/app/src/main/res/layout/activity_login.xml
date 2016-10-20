@@ -47,7 +47,7 @@
         android:layout_below="@+id/usernamelogin"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:id="@+id/passwordtextview"
+        android:id="@+id/passwordlogin"
         android:background="@drawable/login_field"/>
 
     <Button
@@ -57,11 +57,14 @@
         android:id="@+id/buttonlogin"
         android:layout_centerVertical="true"
         android:background="#0277bd"
+        android:layout_below="@+id/passwordlogin"
+        android:layout_marginTop="14dp"
         android:textSize="18dp"
-        android:layout_alignLeft="@+id/passwordtextview"
-        android:layout_alignStart="@+id/passwordtextview"
-        android:layout_alignRight="@+id/passwordtextview"
-        android:layout_alignEnd="@+id/passwordtextview"
+        android:onClick="Clicks"
+        android:layout_alignLeft="@+id/passwordlogin"
+        android:layout_alignStart="@+id/passwordlogin"
+        android:layout_alignRight="@+id/passwordlogin"
+        android:layout_alignEnd="@+id/passwordlogin"
         android:textColor="#fff"/>
 
 </RelativeLayout>
