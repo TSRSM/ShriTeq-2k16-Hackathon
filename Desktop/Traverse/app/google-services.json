@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "672564945444",
+    "firebase_url": "https://traverse-3e941.firebaseio.com",
+    "project_id": "traverse-3e941",
+    "storage_bucket": "traverse-3e941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672564945444:android:7bc0144e192821da",
+        "android_client_info": {
+          "package_name": "in.dhruvyadav.traverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672564945444-1v288tq61g0g5741ft7ebbtsm08b6kde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dhruvyadav.traverse",
+            "certificate_hash": "F7E7EB06D0BDAD33987E5A4B5089C590BFEC4251"
+          }
+        },
+        {
+          "client_id": "672564945444-apr2jq8jur813nb115el5v9ke3dajs29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAahwcmrpmDcvyLB3XKPtgUGVudeHq8MOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672564945444-1kr56hu6s1htajqehk8g23sn4260tjma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kabiroberai.Traverse"
+              }
+            },
+            {
+              "client_id": "672564945444-apr2jq8jur813nb115el5v9ke3dajs29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

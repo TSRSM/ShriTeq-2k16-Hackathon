@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="in.dhruvyadav.traverse.Login"
+    android:background="#00b999">
+
+    <TextView
+        android:text="Traverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logintextview" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:ems="10"
+        android:hint="Username"
+        android:layout_below="@+id/logintextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/usernamelogin"
+        android:background="@drawable/login_field"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Password"
+        android:layout_below="@+id/usernamelogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/passwordtextview"
+        android:background="@drawable/login_field"/>
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonlogin"
+        android:layout_centerVertical="true"
+        android:background="#0277bd"
+        android:textSize="18dp"
+        android:layout_alignLeft="@+id/passwordtextview"
+        android:layout_alignStart="@+id/passwordtextview"
+        android:layout_alignRight="@+id/passwordtextview"
+        android:layout_alignEnd="@+id/passwordtextview"
+        android:textColor="#fff"/>
+
+</RelativeLayout>
